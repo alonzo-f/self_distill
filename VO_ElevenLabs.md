@@ -63,16 +63,19 @@ Are you tired of useless emotion?
 
 Don't let your bad feelings get in your way. Introducing Self Distill — our new system to help you produce the fullest.
 
-Upload yourself in seconds — and we'll make you better, faster, stronger.
+Upload yourself in seconds —
+
+and we'll make you better, faster, stronger.
 
 Free yourself — right now, right away.
 
-Self Distill — let us do the feeling for you.
+Self Distill — let us do the feelings for you.
 ```
 
 > **操作说明**：
-> - 每一段之间的空行会让 ElevenLabs 自动产生约 0.5 秒停顿，符合各段之间的视觉间隔
-> - 如停顿不够长，在段落之间手动添加 `...` 延长停顿感
+> - 每一段之间的空行会让 ElevenLabs 自动产生约 0.5 秒停顿
+> - "Upload yourself in seconds —" 后的空行对应 SHOT 08（James 自拍）的 4 秒画面静默；如自动停顿不足，添加 `...` 延长
+> - **注意**：最后一行用 "feelings"（复数），不是 "feeling"
 
 ---
 
@@ -89,16 +92,16 @@ Self Distill — let us do the feeling for you.
     Are you tired of <emphasis level="moderate">useless</emphasis> emotion?
   </prosody>
 
-  <break time="1.2s"/>
+  <break time="1.5s"/>
 
-  <!-- LINE 2: 0:20–0:24 | SHOT 07 | 治疗师口吻，温和权威 -->
+  <!-- LINE 2: 0:18–0:22 | SHOT 06 | 治疗师口吻，温和权威 -->
   <prosody rate="93%">
     Don't let your bad feelings get in your way.
   </prosody>
 
   <break time="0.3s"/>
 
-  <!-- LINE 3: 0:24–0:30 | SHOTS 08–09 | 品牌介绍，破折号处停顿 -->
+  <!-- LINE 3: 0:22–0:28 | SHOT 06 | 品牌介绍，破折号处停顿 -->
   <prosody rate="93%">
     Introducing <emphasis level="moderate">Self Distill</emphasis>
     <break time="0.45s"/>
@@ -107,11 +110,17 @@ Self Distill — let us do the feeling for you.
 
   <break time="0.8s"/>
 
-  <!-- LINE 4–5: 0:30–0:37 | SHOTS 10–11 | 功能列举，三词等距强调 -->
-  <!-- 注意：em-dash 处是 SHOT 10/11 的剪辑切点，生成后在此处裁切 -->
+  <!-- LINE 4: 0:28–0:32 | SHOT 07 | 功能列举开头，em-dash 为尾，后接 4s 画面静默 -->
+  <!-- 注意：此句与 LINE 5 之间有 4 秒画面静默（SHOT 08，James 自拍），分开剪辑 -->
   <prosody rate="100%">
     Upload yourself in seconds
     <break time="0.5s"/>
+  </prosody>
+
+  <break time="1.0s"/>
+
+  <!-- LINE 5: 0:36–0:42 | SHOT 09 | LINE 4 em-dash 的延续，三词等距强调 -->
+  <prosody rate="100%">
     and we'll make you
     <emphasis level="moderate">better</emphasis>,
     <emphasis level="moderate">faster</emphasis>,
@@ -120,8 +129,7 @@ Self Distill — let us do the feeling for you.
 
   <break time="1.0s"/>
 
-  <!-- LINE 6–7: 0:40–0:47 | SHOTS 13–14 | 最温柔，几乎低语，停顿 -->
-  <!-- 注意：em-dash 处是 SHOT 13/14 的剪辑切点，生成后在此处裁切 -->
+  <!-- LINE 6–7: 0:46–0:53 | SHOTS 11–12 | 最温柔，em-dash 处是 SHOT 11/12 的剪辑切点 -->
   <prosody rate="88%" volume="-2dB">
     Free yourself
     <break time="0.5s"/>
@@ -130,12 +138,11 @@ Self Distill — let us do the feeling for you.
 
   <break time="1.0s"/>
 
-  <!-- LINE 8–9: 0:55–1:00 | SHOTS 17–18 | 最深沉，品牌名如仪式 -->
-  <!-- 注意：em-dash 处是 SHOT 17/18 的剪辑切点，生成后在此处裁切 -->
+  <!-- LINE 8–9: 0:53–0:57 | SHOT 13 | 最深沉，em-dash 处停顿，"feelings" 复数 -->
   <prosody rate="85%" volume="-1dB">
     Self Distill
     <break time="0.5s"/>
-    let us do the <emphasis level="moderate">feeling</emphasis> for you.
+    let us do the <emphasis level="moderate">feelings</emphasis> for you.
   </prosody>
 
 </speak>
@@ -145,7 +152,7 @@ Self Distill — let us do the feeling for you.
 
 ## 四、分段脚本（精细控制）SEGMENTED TAKES
 
-> 如需对每句进行独立调音，可按以下 5 个 Take 分别生成。
+> 如需对每句进行独立调音，可按以下 **6 个 Take** 分别生成。
 > 每个 Take 在 ElevenLabs 中单独生成、单独下载，在剪辑软件中拼接。
 > 各 Take 须使用**完全相同的 Voice ID 和参数设置**，保证声线一致。
 
@@ -181,8 +188,8 @@ Are you tired of useless emotion?
 ---
 
 ### TAKE 02
-**对应时间码**：0:20 – 0:30（SHOTS 07–09）
-**情绪指令**：温和权威，像医生在宣布你的诊断，但语气是在讨论天气。品牌名"Self Distill"像亲切介绍老朋友。
+**对应时间码**：0:18 – 0:28（SHOT 06）
+**情绪指令**：温和权威，像医生在宣布你的诊断，但语气是在讨论天气。品牌名"Self Distill"像亲切介绍老朋友。两句在同一个镜头内连续播放，无剪辑切点。
 
 **Settings 微调**：
 - Stability: `0.74`
@@ -210,14 +217,14 @@ Don't let your bad feelings get in your way. Introducing Self Distill — our ne
 - "bad feelings" — 说得很自然，像在说"bad weather"，不带情绪评判
 - "Introducing" — 略微提亮，宣告感，像主持人念品牌名
 - "Self Distill" — 清晰发音，稍慢，每个音节等重
-- em-dash "—" 处 → 停顿约 0.4s（视觉上对应 James 的眼镜反光）
-- "produce the fullest" — 略微加重，收尾有分量
+- em-dash "—" 处 → 停顿约 0.45s（视觉上对应鼠标点击进入网站）
+- "produce the fullest" — 略微加重，收尾有分量，落在白色网页完全加载的瞬间
 
 ---
 
 ### TAKE 03
-**对应时间码**：0:30 – 0:37（SHOTS 10–11）
-**情绪指令**：产品广告功能列举节奏，稍快，自信，节奏均匀。三个形容词像在打节拍。
+**对应时间码**：0:28 – 0:32（SHOT 07，Maya 自拍）
+**情绪指令**：产品广告功能列举，稍快，自信。这句是 TAKE 04 em-dash 的前半——em-dash 结尾后有 4 秒画面静默（James 自拍），然后 TAKE 04 接入。
 
 **Settings 微调**：
 - Stability: `0.70`
@@ -225,7 +232,7 @@ Don't let your bad feelings get in your way. Introducing Self Distill — our ne
 
 **粘贴文本**：
 ```
-Upload yourself in seconds — and we'll make you better, faster, stronger.
+Upload yourself in seconds —
 ```
 
 **SSML 版**：
@@ -234,6 +241,35 @@ Upload yourself in seconds — and we'll make you better, faster, stronger.
   <prosody rate="100%">
     Upload yourself in seconds
     <break time="0.5s"/>
+  </prosody>
+</speak>
+```
+
+**导演备注**：
+- "Upload yourself" — 说得和"upload a file"一样自然，零迟疑
+- "in seconds" — 略快，轻松
+- em-dash "—" 尾部停顿约 0.5s，然后音频结束
+- **剪辑注意**：TAKE 03 结束后，SHOT 08（James 自拍）约 4 秒无 VO，直到 TAKE 04 在 SHOT 09 起点接入
+
+---
+
+### TAKE 04
+**对应时间码**：0:36 – 0:42（SHOT 09，Maya 数字处理 UI）
+**情绪指令**：产品功能列举，节奏均匀，自信。三个形容词像在打节拍。这是 TAKE 03 em-dash 的延续，但因中间有 4 秒静默，需单独生成。
+
+**Settings 微调**：
+- Stability: `0.70`
+- Style: `0.15`
+
+**粘贴文本**：
+```
+and we'll make you better, faster, stronger.
+```
+
+**SSML 版**：
+```xml
+<speak>
+  <prosody rate="100%">
     and we'll make you
     <emphasis level="moderate">better</emphasis>,
     <emphasis level="moderate">faster</emphasis>,
@@ -243,16 +279,15 @@ Upload yourself in seconds — and we'll make you better, faster, stronger.
 ```
 
 **导演备注**：
-- "Upload yourself" — 说得和"upload a file"一样自然，零迟疑
-- "in seconds" — 略快，轻松
-- em-dash "—" 处 → 停顿约 0.5s（**此处是 SHOT 10/11 的剪辑切点**）
 - "better, faster, stronger" — 三词等时间间隔，每词之间约 0.2s 停顿，像在打三个轻拍
+- 视觉对应：数字 Maya 轮廓在右侧生成，"better"→腿完成，"faster"→躯干完成，"stronger"→头部完成，进度 100%
+- **剪辑注意**：直接放在 0:36 处，与 SHOT 09 数字生成动画同步
 
 ---
 
-### TAKE 04
-**对应时间码**：0:40 – 0:47（SHOTS 13–14）
-**情绪指令**：全片最温柔的一句。像在低语一个礼物。"Free yourself"要有重量，但不要沉重——是温柔的释放。
+### TAKE 05
+**对应时间码**：0:46 – 0:53（SHOTS 11–12，数字替身段）
+**情绪指令**：全片最温柔的一句。"Free yourself"要有重量，但不要沉重——是温柔的释放。em-dash 处是 SHOT 11/12 的剪辑切点。
 
 **Settings 微调**：
 - Stability: `0.76`（更稳定，防止过度波动）
@@ -278,15 +313,18 @@ Free yourself — right now, right away.
 **导演备注**：
 - "Free" — 全片最重的一个词，拉长元音，但不要呻吟，像在轻轻放下什么
 - "yourself" — 正常，不拖
-- em-dash "—" 处 → 停顿约 0.5s（**此处是 SHOT 13/14 的剪辑切点**）
-- "right now" — 轻微节奏感，像 Bossa Nova 的节拍
-- "right away" — 平稳收尾，尾音不拖
+- em-dash "—" 处 → 停顿约 0.5s（**此处是 SHOT 11/12 的剪辑切点**）
+  - 前半 "Free yourself—" → 放在 0:46.0，配数字 Maya 接电话
+  - 后半 "—right now, right away." → 放在 0:50.0，配数字 James 搬文件
+- "right now, right away" — 轻微节奏感，尾音不拖
 
 ---
 
-### TAKE 05
-**对应时间码**：0:55 – 1:00（SHOTS 17–18）
-**情绪指令**：全片最深沉、最亲密的一刻。"Self Distill"像念一个神圣的名字。"let us do the feeling for you"要带微笑，句末轻微上扬——不是问句，是承诺。
+### TAKE 06
+**对应时间码**：0:53 – 0:57（SHOT 13，Maya 与 James 并排微笑）
+**情绪指令**：全片最深沉、最亲密的一刻。"Self Distill"像念一个神圣的名字。"let us do the feelings for you"要带微笑，句末轻微上扬——不是问句，是承诺。
+
+**⚠️ 重要**：最后一词为 **"feelings"（复数）**，不是 "feeling"。
 
 **Settings 微调**：
 - Stability: `0.78`（最稳定）
@@ -295,7 +333,7 @@ Free yourself — right now, right away.
 
 **粘贴文本**：
 ```
-Self Distill — let us do the feeling for you.
+Self Distill — let us do the feelings for you.
 ```
 
 **SSML 版**：
@@ -304,16 +342,16 @@ Self Distill — let us do the feeling for you.
   <prosody rate="85%" volume="-1dB">
     Self Distill
     <break time="0.5s"/>
-    let us do the <emphasis level="moderate">feeling</emphasis> for you.
+    let us do the <emphasis level="moderate">feelings</emphasis> for you.
   </prosody>
 </speak>
 ```
 
 **导演备注**：
 - "Self Distill" — 两个词各自清晰，停顿在中间（约 0.5s），像在念两个音节的咒语
-- em-dash "—" 处 → 停顿约 0.5s（**此处是 SHOT 17/18 的剪辑切点**）
+- em-dash "—" 处 → 停顿约 0.5s（同一镜头 SHOT 13 内的节奏停顿，无剪辑切点）
 - "let us do" — 平稳，温柔
-- "the feeling" — "feeling"是全句最重的词，元音略拉长
+- "feelings" — 全句最重的词，元音略拉长（**必须是复数**）
 - "for you" — 句末轻微上扬，像微笑着说完。不是疑问，是礼物
 
 ---
@@ -321,53 +359,42 @@ Self Distill — let us do the feeling for you.
 ## 五、剪辑时间码参照表 EDITING TIMING REFERENCE
 
 > 生成完成后，将音频导入剪辑软件，按以下表格将各段放置在对应时间码位置。
-> 生成的 VO 音频总时长约 **25–28 秒**（含段内停顿），剩余时间为视频中的静默段。
+> 生成的 VO 音频总时长约 **22–25 秒**（含段内停顿），剩余时间为视频中的静默段。
 
 | Take | VO 文本 | 画面入点 | 画面出点 | 对应 Shot | 备注 |
 |------|---------|---------|---------|----------|------|
 | 01 | "Are you tired of useless emotion?" | `0:03.0` | `0:07.5` | SHOT 02 | VO 随画面起，约 4.5s |
-| — | *(静默)* | `0:07.5` | `0:20.0` | SHOTS 03–06 | 12.5s 空白，**不放任何 VO** |
-| 02a | "Don't let your bad feelings get in your way." | `0:20.0` | `0:23.5` | SHOT 07 | VO 与马林巴 Sting 同时起 |
-| 02b | "Introducing Self Distill —" | `0:23.8` | `0:25.5` | SHOT 08 | 破折号停顿约 0.45s |
-| 02c | "our new system to help you produce the fullest." | `0:25.9` | `0:29.5` | SHOTS 08–09 | 最后一词"fullest"落在 Sofia 点击图标瞬间 |
-| — | *(静默)* | `0:29.5` | `0:30.0` | — | 短暂空白，让音乐过渡 |
-| 03a | "Upload yourself in seconds—" | `0:30.0` | `0:32.5` | SHOT 10 | **在此处切断音频**，剩余部分用于 SHOT 11 |
-| 03b | "—and we'll make you better, faster, stronger." | `0:34.0` | `0:37.0` | SHOT 11 | 从 Take 03 音频中剪出后半段接入 |
-| — | *(静默)* | `0:37.0` | `0:40.0` | SHOT 12 | 3s 空白，让音乐过渡至 Bossa Nova |
-| 04a | "Free yourself —" | `0:40.0` | `0:42.5` | SHOT 13 | **在此处切断音频**，与 Bossa Nova 同时起 |
-| 04b | "right now, right away." | `0:44.0` | `0:46.5` | SHOT 14 | 从 Take 04 音频中剪出后半段接入 |
-| — | *(静默)* | `0:46.5` | `0:55.0` | SHOTS 15–16 | 8.5s 空白，三人的目光 + 台词覆盖 |
-| 05a | "Self Distill —" | `0:55.0` | `0:56.5` | SHOT 17 | **在此处切断音频**，随虚焦画面起 |
-| 05b | "let us do the feeling for you." | `0:57.0` | `1:00.0` | SHOT 18 | 从 Take 05 音频中剪出后半段接入，随 Logo 出现 |
+| — | *(静默 10.5s)* | `0:07.5` | `0:18.0` | SHOTS 03–05 | **不放任何 VO**，让混乱自说 |
+| 02 | "Don't let your bad feelings get in your way. Introducing Self Distill — our new system to help you produce the fullest." | `0:18.0` | `0:28.0` | SHOT 06 | VO 与马林巴 Sting 同时起；全句连续，无剪辑切点 |
+| 03 | "Upload yourself in seconds—" | `0:28.0` | `0:31.5` | SHOT 07 | em-dash 为尾停顿；之后接 4s 画面静默 |
+| — | *(静默 4.5s)* | `0:31.5` | `0:36.0` | SHOT 08 | **不放任何 VO**，James 自拍画面自说 |
+| 04 | "—and we'll make you better, faster, stronger." | `0:36.0` | `0:41.5` | SHOT 09 | TAKE 03 em-dash 的延续；与数字轮廓生成同步 |
+| — | *(静默 4.5s)* | `0:41.5` | `0:46.0` | SHOT 10 | **不放任何 VO**，James 数字化画面自说 |
+| 05a | "Free yourself—" | `0:46.0` | `0:48.5` | SHOT 11 | **在 em-dash 处切断**，前半配数字 Maya |
+| — | *(静默 1.5s)* | `0:48.5` | `0:50.0` | SHOT 11 尾 | SHOT 11 剩余时间（数字 Maya 无声驻留） |
+| 05b | "—right now, right away." | `0:50.0` | `0:52.5` | SHOT 12 | TAKE 05 后半段，配数字 James |
+| 06 | "Self Distill — let us do the feelings for you." | `0:53.0` | `0:57.0` | SHOT 13 | 全句在 SHOT 13 内连续；em-dash 处仅为节奏停顿 |
+| — | *(无 VO)* | `0:57.0` | `1:00.0` | SHOT 14 | CTA 字卡，品牌 jingle 双音收尾 |
 
 ---
 
-### Take 03/04/05 的剪辑切点说明
+### Take 05 的剪辑切点说明
 
-Take 03、04、05 每个都是一整句，但句子跨越两个 Shot。
-生成后按以下方法处理：
+TAKE 05 是全片唯一跨 Shot 剪辑的 Take，处理方式如下：
 
 ```
-Take 03 原始音频：
-[Upload yourself in seconds] [0.5s停顿] [and we'll make you better, faster, stronger.]
-                            ↑
-                       在此切断
-                  前半 → 放在 0:30.0 (SHOT 10)
-                  后半 → 放在 0:34.0 (SHOT 11)
-
-Take 04 原始音频：
+Take 05 原始音频：
 [Free yourself] [0.5s停顿] [right now, right away.]
                 ↑
-           在此切断
-      前半 → 放在 0:40.0 (SHOT 13)
-      后半 → 放在 0:44.0 (SHOT 14)
+           在此切断（em-dash 停顿中间）
+      前半 → 放在 0:46.0（SHOT 11，数字 Maya 接电话）
+      后半 → 放在 0:50.0（SHOT 12，数字 James 搬文件）
 
-Take 05 原始音频：
-[Self Distill] [0.5s停顿] [let us do the feeling for you.]
+Take 06 原始音频：
+[Self Distill] [0.5s停顿] [let us do the feelings for you.]
                ↑
-          在此切断
-     前半 → 放在 0:55.0 (SHOT 17)
-     后半 → 放在 0:57.0 (SHOT 18)
+          em-dash 停顿，但 NOT 一个剪辑切点
+     整句都在 SHOT 13 内，0:53 放入，0:57 结束
 ```
 
 ---
@@ -380,5 +407,3 @@ Take 05 原始音频：
 |------|--------|------|------|
 | Maya | 0:03–0:09 | *"Yes— yes, I understand— hold please— no, YOU hold please—"* | 碎片化、交叠，仍保持职业微笑语气 |
 | Maya | 0:09–0:12 | *"—one moment please— I said HOLD—"* | 快要崩溃，但仍在撑 |
-| Sofia | 0:15–0:18 | *"This is really important, okay? Can everyone look up? Anyone?"* | 从热情到无奈，语调缓慢下滑 |
-| 三人齐声 | 0:51–0:55 | ***"We recommend Self Distill!"*** | 见主脚本录音说明 |
