@@ -101,6 +101,8 @@
 ## 四、分镜与 AI 提示词 STORYBOARD + AI PROMPTS
 
 > 本节将分镜说明与 AI 生成提示词合并。每个 shot 的提示词均包含完整的 **图像（IMAGE）**、**画外音（VOICEOVER）**、**音乐（MUSIC）** 三部分，可直接用于 Runway Gen-4 / Kling 2.0 / Sora / Pika 2.0 等工具。
+>
+> ⚠️ **时间轴说明**：每个 shot 使用**独立时间轴**，从 `0:01` 起计。全局剪辑时间码参见第五节《全片声音设计》。
 
 ---
 
@@ -122,11 +124,11 @@
 
 ---
 
-### 🔴 ACT 1：情绪噪音的痛苦 [0:00 – 0:18]
+### 🔴 ACT 1：情绪噪音的痛苦 [全局 0:00 – 0:18]
 
 ---
 
-#### SHOT 01｜0:00 – 0:03｜片头字卡
+#### SHOT 01｜本镜时长 3 秒（0:01 – 0:04）｜片头字卡
 
 | 项目 | 内容 |
 |------|------|
@@ -141,7 +143,7 @@
 Motion graphic title card. Pure black background (#000000). Vintage slab-serif typeface
 (Clarendon or Rockwell style) in white, fading in letter by letter over 2 seconds:
 "HAVE YOU EVER FELT..." Subtle 8mm film grain texture overlaid. Light vignette at
-corners darkening toward edges. No camera movement. Duration: 3 seconds.
+corners darkening toward edges. No camera movement. Shot duration: 3 seconds (0:01–0:04).
 Static composition, centered text, nothing else in frame.
 
 SHOT TYPE: Title card / motion graphic. No camera. No lens. No live action.
@@ -163,12 +165,12 @@ Do NOT begin the jazz theme yet.
 
 ---
 
-#### SHOT 02｜0:03 – 0:09｜全景 WS → 缓慢推进 DOLLY IN
+#### SHOT 02｜本镜时长 6 秒（0:01 – 0:07）｜全景 WS → 缓慢推进 DOLLY IN
 
 | 项目 | 内容 |
 |------|------|
 | **景别** | 全景（Wide Shot），轴线缓慢推进 |
-| **摄像机运动** | O'Connor 三脚架开场，0:06 起 DJI Ronin 缓慢 dolly in，移动约 15 cm |
+| **摄像机运动** | O'Connor 三脚架开场，**0:04 起** DJI Ronin 缓慢 dolly in，移动约 15 cm |
 | **场景描述** | 明亮客服中心接待台。浅灰色隔间，白色荧光灯，背景模糊的同事剪影。桌面堆满文件夹，电脑屏幕持续弹出绿色通知弹窗。左侧窗户透入冷白日光。 |
 | **人物动作** | Maya 站在台后，左手持电话贴耳，右手横向伸出持第二部电话，双唇同时移动。眼神在屏幕与两部电话间不断切换，额头有轻微汗珠，表情：即将崩溃但仍强撑职业微笑。 |
 | **人物台词** | *"Yes— yes, I understand— hold please— no, YOU hold please—"* |
@@ -177,6 +179,7 @@ Do NOT begin the jazz theme yet.
 === IMAGE ===
 Shot on ARRI Alexa 35, Leica Summilux-C 25mm prime lens.
 Movement: slow dolly-in from wide shot to medium-wide over 6 seconds.
+Camera starts static (O'Connor tripod) at 0:01, begins dolly-in at 0:04.
 
 SCENE: Bright corporate customer service reception desk. Light gray cubicle panels,
 white fluorescent overhead lighting. Background: blurred coworker silhouettes.
@@ -215,16 +218,16 @@ STYLE: Photorealistic cinematic. 1960s American PSA aesthetic with modern produc
 quality. No stylized filters.
 
 === VOICEOVER ===
-VO BEGINS at 0:03 (shot start), simultaneous with music:
+VO BEGINS at 0:01 (shot start), simultaneous with music:
 TEXT: "Are you tired of useless emotion?"
 DELIVERY: Warm, cheerful, as if asking a friend about their weekend — not a
 challenge, a genuine inquiry. "Useless" receives a gentle emphasis (slightly longer
 vowel). Pace: unhurried, approximately 4 seconds for the full line.
-The line COMPLETES within this shot by approximately 0:07.
+The line COMPLETES within this shot by approximately 0:05.
 VO CHARACTER SPEC: See Section 四 VO Voice Spec above.
 
 === MUSIC ===
-Big-band jazz ENTERS simultaneously with VO at 0:03.
+Big-band jazz ENTERS simultaneously with VO at 0:01.
 Muted trumpet plays a rapid ascending chromatic scale. Dissonant piano chord
 clusters layer in immediately. 168 BPM. The music is busy and cluttered —
 mirroring Maya's screen full of competing notifications.
@@ -234,7 +237,7 @@ Volume: -12 dB under VO, full mix when VO is absent.
 
 ---
 
-#### SHOT 03｜0:09 – 0:12｜中近景 MCU
+#### SHOT 03｜本镜时长 3 秒（0:01 – 0:04）｜中近景 MCU
 
 | 项目 | 内容 |
 |------|------|
@@ -248,7 +251,7 @@ Volume: -12 dB under VO, full mix when VO is absent.
 === IMAGE ===
 Shot on Sony FX3, Leica Summilux-C 75mm prime lens.
 Static shot on fluid head tripod. Slight optical stabilizer breathing simulates
-gentle handheld quality.
+gentle handheld quality. Shot duration: 3 seconds (0:01–0:04).
 
 SCENE: Same customer service desk. Background: severely blurred computer monitor
 with green popup notifications casting intermittent green practical light on Maya's
@@ -290,7 +293,7 @@ Musical texture intensifies slightly from SHOT 02. Dissonance builds.
 
 ---
 
-#### SHOT 04｜0:12 – 0:15｜中景 MS｜滑轨横移
+#### SHOT 04｜本镜时长 3 秒（0:01 – 0:04）｜中景 MS｜滑轨横移
 
 | 项目 | 内容 |
 |------|------|
@@ -304,7 +307,7 @@ Musical texture intensifies slightly from SHOT 02. Dissonance builds.
 === IMAGE ===
 Shot on ARRI Alexa 35, Leica Summilux-C 50mm prime lens.
 Movement: 80cm slider, 30cm rightward lateral tracking over 3 seconds —
-simulating a passing-coworker perspective.
+simulating a passing-coworker perspective. Shot duration: 3 seconds (0:01–0:04).
 
 SCENE: Open-plan office. James's cubicle. Desk surface ENTIRELY covered by
 stacked manila folders and document towers — only ONE corner of the computer
@@ -350,7 +353,7 @@ happening at once.
 
 ---
 
-#### SHOT 05｜0:15 – 0:18｜极近景快切 ECU MONTAGE × 2
+#### SHOT 05｜本镜时长 3 秒（0:01 – 0:04）｜极近景快切 ECU MONTAGE × 2
 
 | 项目 | 内容 |
 |------|------|
@@ -363,8 +366,9 @@ happening at once.
 ```
 === IMAGE ===
 TWO SEQUENTIAL EXTREME CLOSE-UP SHOTS (edit in post, each ~1.5 seconds):
+Shot total duration: 3 seconds (0:01–0:04).
 
-— CUT A — MAYA'S EYES (0:15.0 – 0:16.5):
+— CUT A — MAYA'S EYES (0:01.0 – 0:02.5):
 Shot on Sony FX3, Leica Summilux-C 75mm prime lens at minimum focus distance.
 Static shot, fluid head tripod.
 FRAME: Both eyes only — top of cheekbones to eyebrows. Horizontal composition.
@@ -384,7 +388,7 @@ PROPS: Black over-ear headset boom arm visible at very bottom frame edge.
 SCENE: Customer service desk, background completely abstracted / blown out.
 COLOR: Cold 4800K. High contrast. Subtle cyan-green fringe on right side.
 
-— CUT B — JAMES'S HANDS (0:16.5 – 0:18.0):
+— CUT B — JAMES'S HANDS (0:02.5 – 0:04.0):
 Shot on Sony FX3, Leica Summilux-C 75mm, extreme close-up of hands and papers only.
 Static shot. Frame: only hands and document stack — no face, no body in frame.
 [JAMES]: Fair-skinned hands, light back-of-hand hair. Gold wedding band on LEFT
@@ -408,30 +412,30 @@ COLOR: Same cold 4800K grade. Papers white, slightly overexposed at edges.
 SILENCE. The VO pause that began in SHOT 03 continues through both cuts.
 No voiceover. Dead air. The silence IS the answer to "Are you tired of useless
 emotion?" — no words needed when the images speak this clearly.
-AT 0:18.0 EXACTLY: Silence ends. The marimba sting strikes. Act 2 begins.
+AT 0:04.0 EXACTLY (本镜结束): Silence ends. The marimba sting strikes. Act 2 begins.
 
 === MUSIC ===
-CUT A: Big-band jazz plays its final cymbal-crash climax — a brief "!" moment.
-Full ensemble hits a dissonant chord together on the downbeat of 0:15.
-CUT B: Music decrescendos — a rapid diminuendo over 1.5 seconds, tension
+CUT A (0:01.0): Big-band jazz plays its final cymbal-crash climax — a brief "!" moment.
+Full ensemble hits a dissonant chord together on the first beat.
+CUT B (0:02.5): Music decrescendos — a rapid diminuendo over 1.5 seconds, tension
 winding tight like a coiled spring, preparing for the hard stop.
-AT 0:18.0 EXACTLY: Music CUTS TO COMPLETE SILENCE — a hard stop, no fade.
+AT 0:04.0 EXACTLY (本镜结束): Music CUTS TO COMPLETE SILENCE — a hard stop, no fade.
 0.2 seconds of pure silence. Then: a single marimba note (G♯4) strikes clean
-and bright, held for 2 beats. ACT 2 begins immediately.
+and bright, held for 2 beats. SHOT 06 / ACT 2 begins immediately.
 ```
 
 ---
 
-### 🟡 ACT 2：系统介入 [0:18 – 0:36]
+### 🟡 ACT 2：系统介入 [全局 0:18 – 0:36]
 
 ---
 
-#### SHOT 06｜0:18 – 0:28｜UI 特写 INSERT｜网站链接 → 鼠标点击进入
+#### SHOT 06｜本镜时长 10 秒（0:01 – 0:11）｜UI 特写 INSERT｜网站链接 → 鼠标点击进入
 
 | 项目 | 内容 |
 |------|------|
 | **景别** | 极近景插入（Extreme Close-Up INSERT），屏幕正面平拍 |
-| **摄像机运动** | Sony FX3 固定正对屏幕，微型滑轨缓慢向左漂移 5 cm（10 秒内） |
+| **摄像机运动** | Sony FX3 固定正对屏幕，微型滑轨缓慢向左漂移 5 cm（本镜 10 秒内） |
 | **场景描述** | 笔记本电脑屏幕特写，浏览器显示搜索结果页——"Self Distill"链接高亮出现。鼠标光标从右侧滑入，悬停于链接上方（链接变蓝、下划线出现），点击，页面跳转加载白色 Self Distill 品牌主页。 |
 | **人物动作** | 无真实人物入镜；鼠标光标为场面主体 |
 | **人物台词** | 无 |
@@ -439,30 +443,30 @@ and bright, held for 2 beats. ACT 2 begins immediately.
 ```
 === IMAGE ===
 Shot on Sony FX3, Leica Summilux-C 75mm prime lens.
-Movement: micro-slider, 5cm leftward drift over 10 seconds — barely perceptible,
-creating a gentle drift that prevents the shot from feeling static.
-Frame: screen fills 90% of the image — this is a pure SCREEN INSERT shot.
+Movement: micro-slider, 5cm leftward drift over 10 seconds — barely perceptible.
+Frame: screen fills 90% of the image — pure SCREEN INSERT shot.
+Shot duration: 10 seconds (0:01–0:11).
 
 SCENE: Close-up of a slim laptop screen (silver aluminum chassis, thin bezel).
 The screen shows a web browser (clean Chrome-style UI, minimal chrome).
 SCREEN CONTENT — sequence unfolds over 10 seconds:
 
-  [0:18 – 0:19]: Browser tab shows a clean search results page.
+  [0:01 – 0:02]: Browser tab shows a clean search results page.
   Top result reads: "Self Distill — Your Better Self, Delivered | selfdistill.com"
   URL in green below: "selfdistill.com"
 
-  [0:19 – 0:21]: A mouse cursor (standard arrow, white with thin black outline)
+  [0:02 – 0:04]: A mouse cursor (standard arrow, white with thin black outline)
   glides in from the RIGHT edge of screen. It moves smoothly toward the
   "Self Distill" search result link. As it hovers, the link underlines and
   turns blue — standard hyperlink hover state.
 
-  [0:21 – 0:21.5]: The cursor changes to a pointer hand. A single click.
+  [0:04 – 0:04.5]: The cursor changes to a pointer hand. A single click.
   Screen ripple animation from the click point.
 
-  [0:21.5 – 0:23]: Browser loading animation — progress bar fills top edge.
+  [0:04.5 – 0:06]: Browser loading animation — progress bar fills top edge.
   Brief white flash as page loads.
 
-  [0:23 – 0:28]: Self Distill website HOME PAGE appears in full:
+  [0:06 – 0:11]: Self Distill website HOME PAGE appears in full:
     • Pure white background (#FFFFFF)
     • "Self Distill" wordmark — charcoal (#1A1A1A), serif, letter-spacing +0.02em,
       font-weight 300, centered at 40% of page height
@@ -473,23 +477,19 @@ SCREEN CONTENT — sequence unfolds over 10 seconds:
 
 STAGING: The laptop screen is parallel to the camera plane — no keystoning,
 no perspective distortion. The screen's clean UI contrasts starkly with the
-chaotic office environment glimpsed moments before. This frame is the first
-visual breath of clean white space in the entire film.
+chaotic office environment glimpsed moments before.
 
 LIGHTING: One small overhead LED panel (5600K) illuminates the laptop lid from
 above — zero screen glare (polarizing filter on lens). The white website UI
-provides the dominant light in the frame, casting a clean white glow forward.
-No key/fill/rim required — the screen IS the light source.
+provides the dominant light in the frame.
 
-PROPS: Silver aluminum laptop (thin, modern), mouse cursor on screen, web browser UI,
-Self Distill website with full branding elements as specified above.
+PROPS: Silver aluminum laptop (thin, modern), mouse cursor on screen, web browser
+UI, Self Distill website with full branding elements as specified above.
 
 COLOR: Sharp transition from 4800K chaos grade → 5200K transitional warmth.
-Screen white (#FFFFFF) is allowed to clip slightly — it is a source of light,
-not a surface to expose correctly.
 
 === VOICEOVER ===
-VO RETURNS at exactly 0:18 — simultaneous with the marimba sting:
+VO RETURNS at 0:01 (shot start) — simultaneous with the marimba sting:
 TEXT: "Don't let your bad feelings get in your way."
 DELIVERY: Warm, authoritative, maternal — like a kind doctor who has just
 diagnosed you with something you didn't know was a disease. "Bad feelings" is
@@ -500,14 +500,13 @@ TEXT (continues without pause): "Introducing Self Distill — our new system
 to help you produce the fullest."
 DELIVERY: Brand introduction cadence — confident, warm, with a slight editorial
 pause on the em-dash after "Self Distill" (0.5 beat). "Produce the fullest" is
-delivered with gentle emphasis — slightly stretched vowels, as if savoring
-the phrase. Total for this sentence: ~5 seconds.
+delivered with gentle emphasis.
 SYNC: "Self Distill" lands as the cursor clicks the link and the page begins loading.
-"Produce the fullest" completes as the full white homepage is visible.
+"Produce the fullest" completes as the full white homepage is visible at ~0:10.
 VO CHARACTER SPEC: See Section 四 VO Voice Spec.
 
 === MUSIC ===
-The single marimba sting (G♯4) at 0:18 resolves into the 1960s corporate jingle
+The single marimba sting (G♯4) at 0:01 resolves into the 1960s corporate jingle
 theme — bouncy bass guitar, bright marimba melody, light brushed snare drum.
 132 BPM. The music is warm, efficient, slightly too cheerful.
 Reference: The Jetsons opening theme, first 8 bars.
@@ -516,7 +515,7 @@ Volume: -12 dB under VO.
 
 ---
 
-#### SHOT 07｜0:28 – 0:32｜中景 MS → 插入镜头 INSERT｜Maya 办公室自拍
+#### SHOT 07｜本镜时长 4 秒（0:01 – 0:05）｜中景 MS → 插入镜头 INSERT｜Maya 办公室自拍
 
 | 项目 | 内容 |
 |------|------|
@@ -528,7 +527,7 @@ Volume: -12 dB under VO.
 
 ```
 === IMAGE ===
-TWO CONNECTED SHOTS (cut together):
+TWO CONNECTED SHOTS (cut together). Total duration: 4 seconds (0:01–0:05).
 
 SHOT A — Medium Shot:
 Shot on ARRI Alexa 35, Leica Summilux-C 50mm prime lens. Static, O'Connor tripod.
@@ -538,28 +537,25 @@ CHARACTER: [MAYA]. Same work outfit — cornflower blue shirt, headset (pushed a
 to rest around neck for this shot), thin gold chain necklace. She is at her
 customer service desk, now quiet — the phones are not ringing.
 
-STAGING: Maya faces slightly left-of-camera (toward the phone she has placed face
-down on the desk). She retrieves a personal smartphone from her shirt pocket with
-her right hand. She opens the Self Distill app — we see the white UI briefly
-reflected in her eyes as the screen activates. She taps the front-facing camera
-icon. She extends her arm outward and upward, phone at selfie height (~30 cm
-above eye level). She adjusts her angle once — a small natural correction —
-then holds still. Her expression: not a fashion-selfie pout, but a genuine
-professional stillness. Curious. Hopeful. Like a passport photo she actually cares about.
+STAGING: Maya faces slightly left-of-camera. She retrieves a personal smartphone
+from her shirt pocket with her right hand. She opens the Self Distill app — we see
+the white UI briefly reflected in her eyes as the screen activates. She taps the
+front-facing camera icon. She extends her arm outward and upward, phone at selfie
+height (~30 cm above eye level). She adjusts her angle once — a small natural
+correction — then holds still. Her expression: curious, hopeful.
 
-ACTION SEQUENCE over 4 seconds:
-  0:28 – 0:29: Retrieves phone, opens app
-  0:29 – 0:30: Raises arm, composes selfie angle
-  0:30 – 0:31: Holds still — the moment before the photo
-  0:31 – 0:32: Tap shutter — subtle haptic feedback visible as phone jiggles slightly
+ACTION SEQUENCE:
+  0:01 – 0:02: Retrieves phone, opens app
+  0:02 – 0:03: Raises arm, composes selfie angle
+  0:03 – 0:04: Holds still — the moment before the photo
+  0:04 – 0:05: Tap shutter — subtle haptic feedback visible as phone jiggles slightly
 
 LIGHTING: Same customer service desk setup — Key upper-left 45°, Fill right 1/3,
 Eye light active (catch-light in BOTH pupils). The phone screen adds a warm white
-secondary fill from below as she holds it up — gentle frontal fill softening shadows.
+secondary fill from below as she holds it up.
 
-PROPS: Smartphone with Self Distill app open (white UI, front-facing camera mode,
-rectangular selfie frame on screen), black headset pushed down around neck,
-customer service desk surface visible in background.
+PROPS: Smartphone with Self Distill app open (white UI, front-facing camera mode),
+black headset pushed down around neck, customer service desk surface visible.
 
 SHOT B — INSERT: Phone Screen Overhead:
 Shot on Sony FX3, 75mm at macro configuration. Overhead 90° top-down.
@@ -569,30 +565,28 @@ checkmark animation, text: "Photo Uploaded ✓  Processing your better self..."
 A soft progress ring animation begins around Maya's thumbnail.
 
 LIGHTING for INSERT: Small diffused LED panel directly above phone. Zero glare.
-The phone screen light is the primary illumination on the desk surface.
-
 COLOR: 5200K — transitional warmth, cleaner than Act 1.
 
 === VOICEOVER ===
-VO at 0:28:
+VO at 0:01:
 TEXT: "Upload yourself in seconds—"
 DELIVERY: Slightly brisk — the cadence of a product feature list. "Upload yourself"
 is spoken as naturally as "upload a file." The em-dash creates a breath before the
 next phrase continues in SHOT 09. Approximately 3 seconds for this phrase.
-SYNC: "seconds—" lands exactly as Maya taps the shutter — the verbal promise and
+SYNC: "seconds—" lands exactly as Maya taps the shutter — verbal promise and
 visual proof arrive simultaneously.
 VO CHARACTER SPEC: See Section 四 VO Voice Spec.
 
 === MUSIC ===
-Corporate jingle continues — marimba melody brightens slightly as the "upload"
-moment arrives. A brief ascending 3-note marimba figure (E4→F♯4→A4) punctuates
-the shutter tap — a cheerful digital confirmation sound woven into the music.
+Corporate jingle continues — marimba melody brightens slightly. A brief ascending
+3-note marimba figure (E4→F♯4→A4) punctuates the shutter tap — a cheerful digital
+confirmation sound woven into the music.
 132 BPM. Volume: -12 dB under VO.
 ```
 
 ---
 
-#### SHOT 08｜0:32 – 0:36｜中景 MS → 插入镜头 INSERT｜James 办公室自拍
+#### SHOT 08｜本镜时长 4 秒（0:01 – 0:05）｜中景 MS → 插入镜头 INSERT｜James 办公室自拍
 
 | 项目 | 内容 |
 |------|------|
@@ -604,78 +598,71 @@ the shutter tap — a cheerful digital confirmation sound woven into the music.
 
 ```
 === IMAGE ===
-TWO CONNECTED SHOTS (cut together):
+TWO CONNECTED SHOTS (cut together). Total duration: 4 seconds (0:01–0:05).
 
 SHOT A — Medium Shot:
 Shot on ARRI Alexa 35, Leica Summilux-C 50mm prime lens. Static, O'Connor tripod.
-Frame: waist to top of head, slight 30° right-angle (showing James from his
-left side so we see both his face and the phone he's raising).
+Frame: waist to top of head, slight 30° right-angle.
 
-CHARACTER: [JAMES]. Same work outfit — dark navy jacket, white shirt, dark red
-tie (now slightly retied — less disheveled than earlier). He is at his cubicle.
-The document stacks are still present but no longer falling.
+CHARACTER: [JAMES]. Same work outfit — dark navy jacket, white shirt, dark red tie
+(now slightly retied — less disheveled). He is at his cubicle. Document stacks still
+present but no longer falling.
 
-STAGING: James stands (not sits) behind his desk. He removes his smartphone from
-his jacket inner pocket. He looks at the screen — the Self Distill app is already
-loading. He taps the front-facing camera. He raises the phone — arm fully extended,
-slightly too high (he's not sure of the optimal angle). He removes his glasses with
-his free left hand, looks at the blurry phone screen, puts the glasses back on,
-adjusts the phone angle 3 centimeters lower. He exhales slightly. Holds the phone
-steady. A long pause before the shutter — a man committing to something he does
-not fully understand. Then he taps it.
+STAGING: James stands behind his desk. He removes his smartphone from his jacket
+inner pocket. He looks at the screen — the Self Distill app is already loading. He
+taps the front-facing camera. He raises the phone — arm fully extended, slightly
+too high (not sure of the optimal angle). He removes his glasses with his free left
+hand, looks at the blurry phone screen, puts the glasses back on, adjusts the phone
+angle 3 centimeters lower. He exhales slightly. Holds the phone steady. A long pause
+before the shutter — a man committing to something he does not fully understand.
+Then he taps it.
 
-His expression DURING the photo: unexpectedly sincere. The slight ruddiness in
-his cheeks. The LED catch-light in both blue-gray eyes (upper-left quadrant).
-A very small, genuine smile — not performed.
-
-ACTION SEQUENCE over 4 seconds:
-  0:32 – 0:33: Retrieves phone, fumbles with app slightly
-  0:33 – 0:34: Removes glasses, peers at screen, replaces glasses
-  0:34 – 0:35: Raises phone, adjusts, finds angle
-  0:35 – 0:36: Holds still, takes the selfie — subtle phone jiggle on tap
+ACTION SEQUENCE:
+  0:01 – 0:02: Retrieves phone, fumbles with app slightly
+  0:02 – 0:03: Removes glasses, peers at screen, replaces glasses
+  0:03 – 0:04: Raises phone, adjusts, finds angle
+  0:04 – 0:05: Holds still, takes the selfie — subtle phone jiggle on tap
 
 LIGHTING: Same office cubicle setup — Key upper-left 45°, 5600K. Fill right softbox.
-Eye light active — catch-light in BOTH blue-gray eyes must be visible and sharp in the
-moment the photo is taken. Computer monitor behind provides secondary cool white fill.
+Eye light active — catch-light in BOTH blue-gray eyes must be visible and sharp
+in the moment the photo is taken.
 
 PROPS: Smartphone with Self Distill app front-facing camera mode, thin gold
 wire-rimmed glasses (removed and replaced during action), document stacks in
-background (still present, stabilized), coffee mug on desk corner.
+background (still present, stabilized).
 
 SHOT B — INSERT: Phone Screen Overhead:
 Shot on Sony FX3, 75mm macro. Overhead 90° top-down.
 Phone lying flat after selfie. Screen: James's face thumbnail in a circle, same
-upload confirmation as Maya's: "Photo Uploaded ✓  Processing your better self..."
-Progress ring animation around his thumbnail — mirror of Maya's SHOT 07 insert.
+upload confirmation: "Photo Uploaded ✓  Processing your better self..."
 
-COLOR: 5200K, warmth building. The white phone screen UI provides a clean visual
-anchor — every shot of the website/app should feel bright, clinical, reassuring.
+COLOR: 5200K, warmth building.
 
 === VOICEOVER ===
-SILENCE during SHOT 08. The phrase "Upload yourself in seconds—" completed at the
-end of SHOT 07. This shot runs without VO — James's awkward determination speaks
-for itself. The visual rhyme (same action, different person) needs no narration.
+SILENCE during SHOT 08. The phrase "Upload yourself in seconds—" completed in
+SHOT 07. This shot runs without VO — James's awkward determination speaks for itself.
+The visual rhyme (same action, different person) needs no narration.
 Do not add any VO.
 
 === MUSIC ===
 Corporate jingle continues — same bouncy 132 BPM. The ascending marimba confirmation
-figure repeats (E4→F♯4→A4) on James's shutter tap, matching the one on Maya's.
+figure repeats (E4→F♯4→A4) on James's shutter tap, matching the one in SHOT 07.
 This musical echo reinforces the visual rhyme between the two selfie shots.
 Volume: full mix (no VO competing).
 ```
 
 ---
 
-### 🟢 ACT 3：数字处理 [0:36 – 0:46]
+### 🟢 ACT 3：数字处理 [全局 0:36 – 0:46]
 
 ---
 
-#### SHOT 09｜0:36 – 0:42｜全屏 UI 界面｜Maya 数字化处理
+#### SHOT 09｜本镜时长 6 秒（0:01 – 0:07）｜全屏 UI 界面｜Maya 数字化处理
 
 | 项目 | 内容 |
 |------|------|
 | **景别** | 全屏 UI 界面（CG / 动态图形），分屏构图：左右各半 |
-| **摄像机运动** | 虚拟摄像机缓慢向前推进（z 轴 dolly in，约 5% 缩放），6 秒内 |
+| **摄像机运动** | 虚拟摄像机缓慢向前推进（z 轴 dolly in，约 5% 缩放），本镜 6 秒内 |
 | **场景描述** | Self Distill 网页界面全屏占据画面：左半屏 Maya 的等比例全身 3D 扫描图像缓慢旋转（360°），右半屏实时生成由绿色 0 和 1 交错密布组成的 Maya 数字轮廓，从下向上逐渐填满。 |
 | **人物动作** | 无真实人物；左侧 Maya 3D 模型旋转；右侧数字轮廓自底部向顶部生成 |
 | **人物台词** | 无 |
@@ -685,6 +672,7 @@ Volume: full mix (no VO competing).
 CG / VFX motion graphic render. Virtual camera equivalent to Leica Summilux-C 50mm
 field of view. Slow virtual dolly-in: z-axis push, approximately 5% scale increase
 over 6 seconds — screen elements feel like they're approaching the viewer.
+Shot duration: 6 seconds (0:01–0:07).
 
 SCENE: Full-screen Self Distill web application interface.
 Background: Pure white (#FFFFFF). UI elements styled per brand spec.
@@ -699,67 +687,55 @@ LEFT PANEL (labeled "Your Scan"):
     visible across 6 seconds (from front-facing to profile, still turning).
   • Subtle point-cloud or mesh wireframe visible at body edges.
   • Lighting on the 3D model: neutral studio HDRI — even, clinical, no drama.
-  • The model's feet rest on a small shadow plane.
 
 RIGHT PANEL (labeled "Your Digital Self  ██████░░ 74%"):
   • Pure black background (#000000) in this half only.
   • Maya's SILHOUETTE is being constructed from WITHIN by dense, flowing
-    green binary digits (alternating 0 and 1, 0 and 1, in varying font sizes
-    6pt–12pt, tight leading, filling every pixel of the silhouette).
+    green binary digits (alternating 0 and 1 in varying font sizes 6pt–12pt,
+    tight leading, filling every pixel of the silhouette).
   • The digits glow green (#00FF41 — Matrix green), with slight bloom effect.
   • Construction proceeds FROM BOTTOM TO TOP — feet and legs visible first,
     torso filling in mid-shot, head completing near the end of the 6 seconds.
-  • The digits flow gently — not static type, but softly animated streaming
-    binary (like a contained, shaped Matrix code waterfall).
-  • Silhouette edges are sharp — there is a clear boundary between the
-    bright-green digit Maya and the pure black panel background.
   • At the top of the right panel: progress bar and percentage counter,
     climbing from 0% to 100% across the 6 seconds.
 
 CENTER DIVIDER: A thin 1px charcoal (#1A1A1A) vertical line separates panels.
 A small Self Distill wordmark in charcoal floats centered above the split screen.
 
-STAGING: Both panels are simultaneously active — the organic 3D model on the left
-and the digital construction on the right create a visual argument about identity.
-What is "better"? The question is embedded in the composition.
+STAGING: Both panels simultaneously active — organic 3D model on the left, digital
+construction on the right. What is "better"? The question is embedded in the composition.
 
-LIGHTING: CG render — neutral studio HDRI for the 3D model left panel. The right
-panel is entirely self-lit by the green digit glow. No physical lighting rig.
-
-PROPS: UI elements — progress bar, percentage readout, panel labels, Self Distill
-wordmark. No physical props.
-
-COLOR: Left panel is 5200K-equivalent neutral warmth. Right panel is purely
-black + #00FF41 green — no color correction applied to that half.
+LIGHTING: CG render — neutral studio HDRI for left panel. Right panel is entirely
+self-lit by the green digit glow. No physical lighting rig.
+PROPS: UI elements — progress bar, percentage readout, panel labels, Self Distill wordmark.
+COLOR: Left panel 5200K-equivalent. Right panel purely black + #00FF41 green.
 
 === VOICEOVER ===
-VO RETURNS at 0:36 (resolving the em-dash from SHOT 07):
+VO RETURNS at 0:01 (resolving the em-dash from SHOT 07):
 TEXT: "—and we'll make you better, faster, stronger."
 DELIVERY: The em-dash pickup from SHOT 07 ("Upload yourself in seconds—") resolves
 here. "Better, faster, stronger" — three adjectives with equal rhythmic spacing,
-each given precise equal weight. The digital Maya silhouette filling in as the words
-land creates a literal visualization of the claim. Deliver with complete sincerity.
+each given precise equal weight. Deliver with complete sincerity.
 SYNC: "Better" — Maya's legs visible. "Faster" — torso fills in. "Stronger" —
 head completes, progress bar reaches 100%.
 VO CHARACTER SPEC: See Section 四 VO Voice Spec.
 
 === MUSIC ===
-At 0:36: Corporate jingle hybridizes with electronic synthesis.
+At 0:01: Corporate jingle hybridizes with electronic synthesis.
 Kraftwerk-style synthesizer bass (square wave, minor key) enters BENEATH the
-existing jingle marimba — the two musics overlap: the organic cheerfulness of the
-jingle vs. the cold precision of the synthesizer. Neither dominates.
-Three playful-yet-electronic staccato hits punctuate "better / faster / stronger."
+existing jingle marimba — the two musics overlap.
+Three electronic staccato hits punctuate "better / faster / stronger."
 132 BPM. Volume: -12 dB under VO.
 ```
 
 ---
 
-#### SHOT 10｜0:42 – 0:46｜全屏 UI 界面｜James 数字化处理
+#### SHOT 10｜本镜时长 4 秒（0:01 – 0:05）｜全屏 UI 界面｜James 数字化处理
 
 | 项目 | 内容 |
 |------|------|
 | **景别** | 全屏 UI 界面（CG / 动态图形），分屏构图：左右各半 |
-| **摄像机运动** | 虚拟摄像机静止，4 秒内 |
+| **摄像机运动** | 虚拟摄像机静止，本镜 4 秒内 |
 | **场景描述** | 与 SHOT 09 完全同构界面，但主体换为 James：左半屏 James 的全身 3D 扫描缓慢旋转，右半屏生成由绿色 0 和 1 构成的 James 数字轮廓，进度条快速完成。 |
 | **人物动作** | 无真实人物；James 3D 模型旋转；数字 James 自底部向顶部生成 |
 | **人物台词** | 无 |
@@ -768,6 +744,7 @@ Three playful-yet-electronic staccato hits punctuate "better / faster / stronger
 === IMAGE ===
 CG / VFX motion graphic render — IDENTICAL interface design to SHOT 09.
 Virtual camera equivalent: Leica Summilux-C 50mm field of view. Static virtual camera.
+Shot duration: 4 seconds (0:01–0:05).
 
 SCENE: Full-screen Self Distill web application. Same 50/50 split interface.
 
@@ -782,16 +759,13 @@ RIGHT PANEL (labeled "Your Digital Self  ██████████ 100%"):
   • Same pure black background (#000000).
   • James's silhouette — taller, broader-shouldered than Maya's — being constructed
     by the same dense green binary digit stream (#00FF41).
-  • Because this is the SECOND person processed, the progress bar starts at ~40%
-    (already partially processed) and fills to 100% over the 4 seconds — slightly
-    faster than Maya's, as if the system has warmed up.
-  • The binary digits adopt James's proportions: the silhouette is clearly
-    his height (~180 cm implied), with the rectangular glasses rendered in
+  • Progress bar starts at ~40% (already partially processed) and fills to 100%
+    over the 4 seconds — slightly faster than Maya's.
+  • The binary digits adopt James's proportions: rectangular glasses rendered in
     binary along the face plane of the silhouette.
 
-STAGING: The visual symmetry between SHOT 09 and SHOT 10 reinforces the system's
-universality — it processes everyone with identical clinical precision.
-The only variable is the human silhouette being filled.
+STAGING: Visual symmetry between SHOT 09 and SHOT 10 reinforces the system's
+universality — identical clinical precision, different human silhouette.
 
 LIGHTING: Same CG render — neutral HDRI left, self-lit green right.
 PROPS: Same UI elements. Progress bar completes to 100% and holds.
@@ -804,26 +778,26 @@ This shot runs without narration — the visual rhyme of James's digital constru
 Do not add any VO.
 
 === MUSIC ===
-Electronic-jingle hybrid continues — the synthesizer bass now slightly more
-prominent than the marimba. The jingle melody echoes distantly, as if being
-processed through the same digital system that's processing James.
-At the 100% progress completion (end of shot): a brief synthesizer resolution
+Electronic-jingle hybrid continues — synthesizer bass now slightly more prominent.
+The jingle melody echoes distantly, as if being processed through the same digital
+system that's processing James.
+At 100% progress completion (end of shot, 0:05): a brief synthesizer resolution
 tone — a digital "done" sound. Not a marimba; a synthesizer confirmation.
 132 BPM. Volume: full mix.
 ```
 
 ---
 
-### 🔵 ACT 4：数字替身 [0:46 – 0:53]
+### 🔵 ACT 4：数字替身 [全局 0:46 – 0:53]
 
 ---
 
-#### SHOT 11｜0:46 – 0:50｜中景 MS｜数字替身 Maya 接电话
+#### SHOT 11｜本镜时长 4 秒（0:01 – 0:05）｜中景 MS｜数字替身 Maya 接电话
 
 | 项目 | 内容 |
 |------|------|
 | **景别** | 中景（Medium Shot），腰部以上，正面构图 |
-| **摄像机运动** | 虚拟摄像机静止，极缓慢弧形向右移动约 5°（弧形轨迹，4 秒内） |
+| **摄像机运动** | 虚拟摄像机静止，极缓慢弧形向右移动约 5°（弧形轨迹，本镜 4 秒内） |
 | **场景描述** | 纯黑背景。Maya 的全身轮廓完全由流动的绿色 0 和 1 构成——数字形态的 Maya 正在接听电话，动作流畅自如，无任何情绪压力的迹象。 |
 | **人物动作** | 数字 Maya 将电话放至耳边，另一只手自然垂于身侧。动作平稳、精确、无表情。 |
 | **人物台词** | 无 |
@@ -831,8 +805,8 @@ tone — a digital "done" sound. Not a marimba; a synthesizer confirmation.
 ```
 === IMAGE ===
 CG / VFX render. Virtual camera equivalent: Leica Summilux-C 50mm field of view,
-T2.0 aperture equivalent. Virtual arc dolly: slow 5° rightward arc over 4 seconds —
-the subtle movement implies a world that can be observed from multiple angles.
+T2.0 aperture equivalent. Virtual arc dolly: slow 5° rightward arc over 4 seconds.
+Shot duration: 4 seconds (0:01–0:05).
 
 SCENE: Pure black void (#000000). No floor, no walls, no environmental context.
 The digital Maya figure exists in absolute darkness, illuminated only by its own
@@ -843,62 +817,48 @@ The complete human figure of Maya — standing, framed waist-to-head — is rend
 entirely from dense flowing green binary digits (0s and 1s, alternating, in tight
 6pt–12pt type). The digits flow and shift continuously, like contained data streams
 forming a living shape. The silhouette is unmistakably Maya:
-  • Afro puff bun silhouette at top — the hair volume is rendered in slightly
-    larger, faster-moving digits than the face
+  • Afro puff bun silhouette at top — hair volume rendered in slightly larger digits
   • Round face shape, high cheekbones suggested by digit density variation
-  • Cornflower blue shirt area rendered in slightly lighter green tone (subtle
-    tonal variation within the #00FF41 palette to suggest clothing)
   • Gold chain necklace: a single bright horizontal line of concentrated digits
   • Medium build, approximately 165 cm implied proportions
 
 The digits throughout her body GLOW (#00FF41, 75% opacity) with a soft bloom
-radius of approximately 4px — she radiates a gentle green luminescence into the
-surrounding black. The outer edges of her silhouette have a subtle fringe of
-diffused digits, like static electricity.
+radius of approximately 4px — she radiates a gentle green luminescence.
 
 ACTION: The digital Maya holds a telephone handset (also rendered in green binary
-digits — the phone is part of her digital world) pressed to her LEFT ear.
-Her posture is upright, composed, perfectly still except for the flowing digits.
-She is HANDLING THE CALL — whatever the caller says, she is responding with
-seamless efficiency. No stress. No furrow. No sweat. No juggling of two phones.
-One call. One solution. Complete.
-
-Her face (rendered in digits) shows no expression — not because she is unhappy,
-but because emotion has been externalized. The absence of visible stress IS the
-product's promise made visible.
+digits) pressed to her LEFT ear. Her posture is upright, composed, perfectly still
+except for the flowing digits. She is HANDLING THE CALL — whatever the caller says,
+she is responding with seamless efficiency. No stress. No furrow. No sweat.
+One call. One solution. Complete. The absence of visible stress IS the product's promise.
 
 STAGING: Digital Maya occupies center-frame, approximately 60% of frame height.
 The surrounding black is deep and absolute — no ambient light, no ground shadow.
-The arc of the virtual camera from left to right gives her figure a slight sense
-of three-dimensionality: as the angle shifts, the density of the front-facing
-digits becomes slightly sparser, revealing (just barely) that the figure has depth.
+The slow arc of the virtual camera gives her figure a slight sense of
+three-dimensionality.
 
 LIGHTING: Self-lit by internal green glow (#00FF41). No external light sources.
 The bloom effect creates a halo approximately 2cm beyond the silhouette edge.
-The virtual camera catches this glow as a lens bloom effect — giving the shot
-a slight otherworldly aura without becoming garish.
 
-PROPS: Green-binary telephone handset (same design as desk phone in SHOTS 02–03,
-but rendered entirely in the same green-digit aesthetic as the figure).
+PROPS: Green-binary telephone handset (same desk phone proportions as SHOTS 02–03,
+rendered entirely in the same green-digit aesthetic as the figure).
 
 COLOR: Pure black (#000000) background. Monochromatic green (#00FF41) figure.
-No other colors in frame. The contrast is absolute. This shot should feel like
-looking at a heart monitor or a radar display — efficient, inhuman, exact.
+No other colors in frame. This shot should feel like looking at a heart monitor
+or a radar display — efficient, inhuman, exact.
 
 === VOICEOVER ===
-VO RETURNS at 0:46:
+VO RETURNS at 0:01 (shot start):
 TEXT: "Free yourself—"
 DELIVERY: The warmest, most intimate the VO has been — softer, almost whispered,
 as if sharing a secret gift. "Free" carries the fullest weight of the entire PSA;
 it is the emotional payoff of everything that came before. Pace slows slightly.
 The em-dash creates a deliberate 0.5-beat pause before the next shot completes
 the thought.
-SYNC: "Free yourself—" lands as the digital Maya settles into her phone call —
-movement and word embody each other.
+SYNC: "Free yourself—" lands as the digital Maya settles into her phone call.
 VO CHARACTER SPEC: See Section 四 VO Voice Spec.
 
 === MUSIC ===
-At 0:46: Electronic-jingle hybrid dissolves. Philip Glass-influenced minimalist
+At 0:01: Electronic-jingle hybrid dissolves. Philip Glass-influenced minimalist
 piano enters — a slow, repeating 4-note figure (D4–E4–G4–A4) in sparse,
 even rhythm. Simple. Clean. Slightly melancholy.
 Underneath: a very faint marimba echo (reverb tail from the jingle theme)
@@ -908,12 +868,12 @@ fading away in the distance.
 
 ---
 
-#### SHOT 12｜0:50 – 0:53｜中景 MS｜数字替身 James 搬文件
+#### SHOT 12｜本镜时长 3 秒（0:01 – 0:04）｜中景 MS｜数字替身 James 搬文件
 
 | 项目 | 内容 |
 |------|------|
 | **景别** | 中景（Medium Shot），腰部以上，正面偏左 15° 角 |
-| **摄像机运动** | 虚拟摄像机静止，3 秒内 |
+| **摄像机运动** | 虚拟摄像机静止，本镜 3 秒内 |
 | **场景描述** | 纯黑背景。James 的全身由流动绿色 0 和 1 构成，正在轻松搬运一叠文件。动作高效、精准，文件整齐服帖，没有任何一页滑落。 |
 | **人物动作** | 数字 James 双臂抱一叠文件，步伐平稳向右走过画面。文件纹丝不动。 |
 | **人物台词** | 无 |
@@ -921,9 +881,8 @@ fading away in the distance.
 ```
 === IMAGE ===
 CG / VFX render. Virtual camera equivalent: Leica Summilux-C 50mm, T2.0.
-Static virtual camera, slight 15° leftward offset from James's axis —
-giving a 3/4 frontal view that allows us to see both his face and the
-document stack clearly.
+Static virtual camera, slight 15° leftward offset from James's axis.
+Shot duration: 3 seconds (0:01–0:04).
 
 SCENE: Same pure black void as SHOT 11. No environment. Digital space only.
 
@@ -931,16 +890,14 @@ CHARACTER: [JAMES] — DIGITAL DOUBLE.
 James's complete figure rendered in dense flowing green binary digits (#00FF41),
 same aesthetic as digital Maya in SHOT 11. Key identifying silhouette features:
   • Taller proportions (~180 cm implied)
-  • Broad-shouldered, slightly heavyset frame suggested by digit density
-  • Square jaw and prominent brow silhouette visible in digit pattern
-  • Short hair rendered in tight, fast-moving small digits at top
+  • Broad-shouldered, slightly heavyset frame
+  • Square jaw and prominent brow silhouette
   • Rectangular glasses: two bright horizontal digit-clusters on the face plane
-  • Navy jacket area rendered with slightly denser digit concentration
   • Gold wedding band: a bright ring of concentrated digits on LEFT ring finger
 
 Same glow aesthetic: #00FF41, 75% opacity, 4px bloom, soft silhouette fringe.
 
-ACTION: Digital James walks from LEFT to RIGHT across the frame — a deliberate,
+ACTION: Digital James walks from LEFT to RIGHT across the frame at a deliberate,
 measured pace. He carries a large stack of documents (also rendered in green binary).
 The document stack is PERFECTLY aligned — no papers slide, no edges misalign.
 His posture is straight, his grip is secure, his movement is efficient.
@@ -948,13 +905,11 @@ The contrast with SHOT 04's cascading chaos is absolute and intentional.
 He crosses the frame and exits RIGHT at the end of the shot.
 
 STAGING: James enters frame from center-left at the start, walks to right edge
-over 3 seconds. His figure passes through the frame at a steady pace — unhurried,
-not rushed. The papers in his arms don't move relative to each other, even slightly.
+over 3 seconds. The papers in his arms don't move relative to each other.
 
 LIGHTING: Same self-lit green glow as SHOT 11. No external sources. Bloom halo.
 PROPS: Green-binary document stack (same manila folder proportions as SHOTS 04–05,
 rendered entirely in digit aesthetic). Gold wedding band visible as a bright digit ring.
-
 COLOR: Same pure black + #00FF41 monochrome. Absolute contrast.
 
 === VOICEOVER ===
@@ -963,9 +918,8 @@ TEXT: "—right now, right away."
 DELIVERY: These three words complete "Free yourself — right now, right away."
 "Right now, right away" has a gentle insistence — the rhythm of the words
 (right now / right a-WAY) is slightly more rhythmic, nearly song-like, matching
-the Philip Glass figure beneath. Deliver with complete warmth and conviction.
-SYNC: "Right now, right away" lands over digital James's efficient walk —
-the liberation is visible in his perfect, unfumbling stride.
+the Philip Glass figure beneath.
+SYNC: "Right now, right away" lands over digital James's efficient walk.
 VO CHARACTER SPEC: See Section 四 VO Voice Spec.
 
 === MUSIC ===
@@ -977,17 +931,17 @@ clean, resonating. The note decays slowly into the next shot.
 
 ---
 
-### 🟠 ACT 5：解脱 [0:53 – 0:57]
+### 🟠 ACT 5：解脱 [全局 0:53 – 0:57]
 
 ---
 
-#### SHOT 13｜0:53 – 0:57｜中景 MS｜Maya 与 James 并排，真人回归
+#### SHOT 13｜本镜时长 4 秒（0:01 – 0:05）｜中景 MS｜Maya 与 James 并排，真人回归
 
 | 项目 | 内容 |
 |------|------|
 | **景别** | 中景（Medium Shot），腰部以上，双人横构图 |
-| **摄像机运动** | DJI Ronin 4D 极缓慢推进（dolly in），4 秒推进约 20 cm |
-| **场景描述** | 真实办公室环境，Maya 与 James 并排坐于同一张桌子旁（或沙发区），面带自然微笑，直视镜头。背景：暖光明亮的办公室，干净整洁——与 Act 1 的混乱形成对比。 |
+| **摄像机运动** | DJI Ronin 4D 极缓慢推进（dolly in），本镜 4 秒推进约 20 cm |
+| **场景描述** | 真实办公室环境，Maya 与 James 并排坐于同一张桌子旁（或沙发区），面带自然微笑，直视镜头。背景：暖光明亮的办公室，干净整洁。 |
 | **人物动作** | 两人并肩而坐，肩膀轻微相触。均看向摄像机。表情：放松、满足，带着真实的轻盈感。 |
 | **人物台词** | 无 |
 
@@ -995,53 +949,43 @@ clean, resonating. The note decays slowly into the next shot.
 === IMAGE ===
 Shot on ARRI Alexa 35, Leica Summilux-C 50mm prime lens.
 Movement: DJI Ronin 4D — extremely slow dolly-in from medium-wide to medium shot.
-Travel: ~20cm over 4 seconds. The push is barely perceptible — it should feel
-like the camera is leaning in, not advancing.
+Travel: ~20cm over 4 seconds. Shot duration: 4 seconds (0:01–0:05).
 
-SCENE: An office common area or break room — a different space from the cubicle
-and the customer service desk. Clean, warm, well-lit. A small round table or
-a comfortable seating area. Background: blurred warm-toned office interior —
+SCENE: An office common area or break room. Clean, warm, well-lit. A small round
+table or a comfortable seating area. Background: blurred warm-toned office interior —
 bookshelves, a plant, large windows letting in warm golden afternoon light.
-The space is intentionally tranquil — the opposite of Act 1.
 
-CHARACTER A: [MAYA]. Same work outfit (cornflower blue shirt, gold scrunchie,
-thin gold chain). She has removed her headset entirely — it is not in frame.
-Her posture is relaxed: shoulders down, hands loosely in lap.
+CHARACTER A: [MAYA]. Same work outfit (cornflower blue shirt, gold scrunchie, thin
+gold chain). Headset removed entirely — not in frame. Posture relaxed: shoulders
+down, hands loosely in lap.
 
 CHARACTER B: [JAMES]. Same work outfit (navy jacket, white shirt, dark red tie —
-now properly knotted and centered). His glasses are on. Document stack: nowhere
-visible. His hands are rested on the table surface, relaxed.
+now properly knotted and centered). Glasses on. Document stack: nowhere visible.
+Hands rested on the table surface, relaxed.
 
-STAGING: Maya on LEFT, James on RIGHT. Their inside shoulders are approximately
-10–15 cm apart — close but not touching. Both face the camera directly. They are
-not posed stiffly; there is a natural, easy quality to their proximity — two people
-who have experienced something together and arrived at the same place. Neither looks
-at the other; both look gently, directly at the lens.
+STAGING: Maya on LEFT, James on RIGHT. Inside shoulders approximately 10–15 cm
+apart — close but not touching. Both face the camera directly. Natural, easy quality
+to their proximity — two people who have experienced something together.
 
-LIGHTING: ARRI SkyPanel S60-C equivalent, 5600K, upper-left 45° — same rig as
-throughout the film, but now the grade is warm and the contrast is soft. Warm
-golden afternoon light through windows provides additional natural fill from the
-right. Eye light active — LED catch-light in the upper-left quadrant of BOTH
-pupils of BOTH characters simultaneously. Rim light from behind at 45° right —
-soft golden rim, not the cool kicker of Act 1.
+LIGHTING: ARRI SkyPanel S60-C equivalent, 5600K, upper-left 45°. Warm golden
+afternoon light through windows provides additional natural fill from the right.
+Eye light active — LED catch-light in the upper-left quadrant of BOTH pupils of
+BOTH characters simultaneously. Rim light from behind at 45° right — soft golden rim.
 
 PROPS: Clean round table surface. A coffee mug (plain, white) in front of James.
-Maya's hands are empty. Background: blurred potted plant, bookshelf, windows with
-warm ambient glow.
+Maya's hands are empty. Background: blurred potted plant, bookshelf, windows.
 
 COLOR: 5600K — warm, open, naturally beautiful. Soft contrast. No chromatic
-aberration. No vignette. No film grain. This shot should feel CLEAN — the visual
-relief of a world that has been resolved.
+aberration. No vignette. No film grain.
 
-ACTION: Both subjects hold a natural, easy smile — not a performance. The smile
-is the quiet kind that arrives after something difficult has passed. Maya's smile
+ACTION: Both subjects hold a natural, easy smile — not a performance. Maya's smile
 is slightly broader; James's is more contained but equally genuine. Neither moves
 significantly during the 4-second shot — they simply ARE. Present. Relieved. Whole.
 
 === VOICEOVER ===
-VO at 0:53:
+VO at 0:01 (shot start):
 TEXT: "Self Distill —"
-DELIVERY: Single deepest, warmest moment in the VO. The brand name is spoken
+DELIVERY: The single deepest, warmest moment in the VO. The brand name is spoken
 reverently — not with fanfare, but with the quiet satisfaction of something earned.
 The em-dash creates a meaningful 0.5-beat pause.
 SYNC: "Self Distill" lands as Maya and James come into focus together.
@@ -1049,27 +993,26 @@ SYNC: "Self Distill" lands as Maya and James come into focus together.
 TEXT (continues): "let us do the feelings for you."
 DELIVERY: The warmest, lowest, most intimate moment in the entire VO. "Feelings"
 receives the fullest emphasis — a slight lengthening of the vowel. The sentence
-ends on a very gentle upward inflection — not a question, but a smile. As if she
-is personally offering to carry their emotional weight.
-SYNC: "...for you." completes as the dolly-in reaches its final position.
+ends on a very gentle upward inflection — not a question, but a smile.
+SYNC: "...for you." completes as the dolly-in reaches its final position (~0:05).
 VO CHARACTER SPEC: See Section 四 VO Voice Spec.
 
 === MUSIC ===
-At 0:53: Minimalist piano dissolves. Full warm orchestral convergence — strings,
+At 0:01: Minimalist piano dissolves. Full warm orchestral convergence — strings,
 French horn, piano arrive together on a sustained Bmaj7 chord. The chord holds
 and softens. The music is momentarily full, then immediately settles into warmth.
-At 0:55: A gentle resolution — strings sustain a single held note. The music
+At 0:03: A gentle resolution — strings sustain a single held note. The music
 becomes very simple and very warm for the final 2 seconds of this shot.
 110 BPM. Volume: -10 dB under VO.
 ```
 
 ---
 
-### ⬜ ACT 6：CTA 行动召唤 [0:57 – 1:00]
+### ⬜ ACT 6：CTA 行动召唤 [全局 0:57 – 1:00]
 
 ---
 
-#### SHOT 14｜0:57 – 1:00｜字卡 TITLE CARD（CTA）
+#### SHOT 14｜本镜时长 3 秒（0:01 – 0:04）｜字卡 TITLE CARD（CTA）
 
 | 项目 | 内容 |
 |------|------|
@@ -1083,6 +1026,7 @@ becomes very simple and very warm for the final 2 seconds of this shot.
 === IMAGE ===
 Motion graphic title card (not live action).
 Background: Pure white (#FFFFFF). No texture, no grain.
+Shot duration: 3 seconds (0:01–0:04).
 
 SHOT TYPE: Motion graphic. No camera. No lens. No live action.
 LIGHTING: None — pure white background with typography only.
@@ -1093,21 +1037,20 @@ SCENE: Brand identity space — pure void of white.
 LAYOUT (centered, vertical stack, appearing in sequence):
   ① Self Distill wordmark logo (simple sans-serif, dark charcoal #1A1A1A)
      — 40% of frame width, letter-spacing +0.02em, font-weight 300.
-     Fades in over 0.5 seconds.
+     Fades in over 0.5 seconds (0:01–0:01.5).
   ② Tagline in lighter weight italic:
      "let us do the feelings for you."
-     — charcoal, 60% of logo size. Types in character by character over 1.2 seconds.
-     NOTE: "feelings" is PLURAL — do not use "feeling" (singular).
+     — charcoal, 60% of logo size. Types in character by character over 1.2 seconds
+     (0:01.5–0:02.7). NOTE: "feelings" is PLURAL.
   ③ CTA button: rounded rectangle (border-radius: 24px), charcoal fill, white text:
      "Start a Free Trial Now →"
-     — slides in from below over 0.3 seconds. Click ripple animation on loop.
+     — slides in from below over 0.3 seconds (0:02.7–0:03.0). Click ripple on loop.
 
 BOTTOM-RIGHT CORNER: Small print (light gray, ~8pt equivalent):
 "*Side effects may include loss of all emotional capacity. Self Distill Inc.
  is not responsible for your feelings — you are."
 
-ANIMATION TOTAL: 2 seconds build, then 1 second static hold.
-
+ANIMATION TOTAL: 2 seconds build (0:01–0:03), then 1 second static hold (0:03–0:04).
 COLOR: Pure white. Charcoal typography. No other colors. Brand-pure.
 
 === VOICEOVER ===
@@ -1128,11 +1071,11 @@ This is the last sound before silence.
 
 ## 五、全片声音设计 SOUND DESIGN OVERVIEW
 
-> 以下为总体参考表，各 shot 提示词中已包含对应的精确 VO 和音乐描述。
+> ⚠️ 本节时间码为**全片全局剪辑参照**，使用全局时间轴，与各 shot 内部独立时间轴不同。
 
-### 画外音 VO 全文与时间码对照
+### 画外音 VO 全文与时间码对照（全局时间轴）
 
-| 时间码 | VO 原文 | 所在 Shot | 语调备注 |
+| 全局时间码 | VO 原文 | 所在 Shot | 语调备注 |
 |--------|---------|----------|----------|
 | 0:03 – 0:08 | *"Are you tired of useless emotion?"* | SHOT 02 | 亲切提问，"useless"轻重读 |
 | **0:08 – 0:18** | **（VO 静默 10 秒）** | SHOTS 03–05 | 沉默是答案，让混乱自说 |
@@ -1150,9 +1093,9 @@ This is the last sound before silence.
 
 ---
 
-### 人物台词全文
+### 人物台词全文（全局时间轴）
 
-| 角色 | 时间码 | 台词 | 所在 Shot |
+| 角色 | 全局时间码 | 台词 | 所在 Shot |
 |------|--------|------|----------|
 | Maya | 0:03–0:09 | *"Yes— yes, I understand— hold please— no, YOU hold please—"* | SHOT 02 |
 | Maya | 0:09–0:12 | *"—one moment please— I said HOLD—"* | SHOT 03 |
